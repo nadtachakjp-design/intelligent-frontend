@@ -189,25 +189,22 @@ align-items: center;
 .status-btn {
   border-radius: 50px;
 
-  width: 80px;
+  width: 100px;
   display: grid;
   place-items: center;
 }
 
 .status-btn.ontrack {
-  background-color: #ddffbc;
-  color: #81cd23;
-  border: 1px #81cd23 solid;
+  background-color: #E7FFCF;
+  color: #88BD53;
 }
 
 .status-btn.atrisk {
-  background-color: #ffd4a0;
-  color: #e89025;
-  border: 1px #e89025 solid;
+  background-color: #FFF2D3;
+  color: #FFBF1C;
 }
 
 .status-btn.offtrack {
-  background-color: #ffb7b7;
-  color: #be3737;
-  border: 1px #be3737 solid;
+  background-color: #FFCFCF;
+  color: #DB4021;
 }
