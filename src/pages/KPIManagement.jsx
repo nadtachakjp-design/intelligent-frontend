@@ -277,7 +277,9 @@ export default function KPIManagement() {
                 return (
                   <tr key={item._id}>
                     <td>{item.title}</td>
-                    <td className="truncate">{item.description}</td>
+                    <td className="truncate" style={{ maxWidth: "200px" }}>
+                      {item.description}
+                    </td>
                     <td className="text-center">{item.targetValue ?? "-"}</td>
                     <td className="text-center">{item.actualValue ?? "-"}</td>
                     <td>

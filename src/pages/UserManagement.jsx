@@ -186,7 +186,7 @@ export default function UserManagement() {
               users.map((u) => (
                 <tr key={u._id}>
                   <td>{u.username}</td>
-                  <td className="truncate">{u.email}</td>
+                  <td className="truncate" style={{maxWidth:'200px'}}>{u.email}</td>
                   <td className="text-center">{roleDisplay(u)}</td>
                   <td>{fmt(u.createdAt)}</td>
                   <td>
